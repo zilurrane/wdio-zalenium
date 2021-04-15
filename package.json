@@ -1,0 +1,29 @@
+{
+  "name": "wdio-zalenium",
+  "version": "0.0.1",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "wdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zilurrane/wdio-zalenium.git"
+  },
+  "author": "Zilu Rane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zilurrane/wdio-zalenium/issues"
+  },
+  "homepage": "https://github.com/zilurrane/wdio-zalenium#readme",
+  "devDependencies": {
+    "@wdio/local-runner": "^7.4.6",
+    "@wdio/mocha-framework": "^7.4.6",
+    "@wdio/selenium-standalone-service": "^7.4.2",
+    "@wdio/spec-reporter": "^7.4.3",
+    "webdriverio": "^4.14.4"
+  },
+  "dependencies": {
+    "@wdio/cli": "^7.4.6"
+  }
+}
