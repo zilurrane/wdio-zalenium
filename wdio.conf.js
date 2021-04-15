@@ -4,10 +4,14 @@ exports.config = {
     specs: [
         './wdio-tests/**/*.js'
     ],
-    maxInstances: 3,
+    maxInstances: 2,
     capabilities: [{
         maxInstances: 1,
         browserName: 'chrome',
+        acceptInsecureCerts: true
+    },{
+        maxInstances: 1,
+        browserName: 'firefox',
         acceptInsecureCerts: true
     }],
     logLevel: 'trace',
