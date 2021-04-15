@@ -16,7 +16,7 @@ exports.config = {
     }],
     logLevel: 'trace',
     bail: 0,
-    baseUrl: 'http://react-dva-starter.surge.sh',
+    baseUrl: 'https://zilu.dev',
     waitforTimeout: timeout,
     connectionRetryTimeout: 12 * timeout,
     connectionRetryCount: 3,
